@@ -123,7 +123,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'axlUSDC',
     ],
   },
-  bsc: {
+  /*  bsc: {
     name: 'BNB Chain',
     chainId: 56,
     rpc: [
@@ -187,7 +187,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'USDT+',
       'vUSDT',
     ],
-  },
+  }, */
   optimism: {
     name: 'Optimism',
     chainId: 10,
@@ -238,7 +238,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'wTBT',
     ],
   },
-  fantom: {
+  /*  fantom: {
     name: 'Fantom',
     chainId: 250,
     rpc: ['https://rpc.ankr.com/fantom'],
@@ -288,8 +288,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'lzUSDC',
       'lzUSDT',
     ],
-  },
-  arbitrum: {
+  }, */
+  /* arbitrum: {
     name: 'Arbitrum',
     chainId: 42161,
     rpc: ['https://arb1.arbitrum.io/rpc'],
@@ -343,8 +343,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'bbaaUSDCV2',
       'bbaaDAIV2',
     ],
-  },
-  avax: {
+  }, */
+  /* avax: {
     name: 'Avalanche',
     chainId: 43114,
     rpc: ['https://rpc.ankr.com/avalanche'],
@@ -392,8 +392,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'USD+',
       'DOLA',
     ],
-  },
-  cronos: {
+  }, */
+  /*  cronos: {
     name: 'Cronos',
     chainId: 25,
     rpc: ['https://evm.cronos.org'],
@@ -419,8 +419,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       baseSafetyMargin: 0.1,
     },
     stableCoins: ['USDC', 'USDT', 'DAI', 'BUSD'],
-  },
-  moonbeam: {
+  }, */
+  /* moonbeam: {
     name: 'Moonbeam',
     chainId: 1284,
     rpc: ['https://rpc.api.moonbeam.network'],
@@ -460,8 +460,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       'USDTxc',
       'BUSDwh',
     ],
-  },
-  moonriver: {
+  }, */
+  /* moonriver: {
     name: 'Moonriver',
     chainId: 1285,
     rpc: ['https://rpc.api.moonriver.moonbeam.network/'],
@@ -487,8 +487,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       baseSafetyMargin: 0.1,
     },
     stableCoins: ['USDC', 'USDT', 'DAI', 'BUSD', 'MAI', 'MIM', 'FRAX', 'USDCm'],
-  },
-  metis: {
+  }, */
+  /* metis: {
     name: 'Metis',
     chainId: 1088,
     rpc: ['https://andromeda.metis.io/?owner=1088'],
@@ -511,8 +511,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['mUSDT', 'mUSDC', 'mDAI', 'USDT', 'USDC'],
-  },
-  fuse: {
+  }, */
+  /* fuse: {
     name: 'Fuse',
     chainId: 122,
     rpc: ['https://rpc.fuse.io'],
@@ -535,8 +535,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['fUSD', 'BUSD', 'USDC', 'USDT'],
-  },
-  kava: {
+  }, */
+  /*  kava: {
     name: 'Kava',
     chainId: 2222,
     rpc: ['https://evm2.kava.io'],
@@ -559,8 +559,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['USDC', 'DAI', 'USDT', 'axlDAI', 'axlUSDC', 'axlUSDT', 'MAI', 'USDt', 'MIM'],
-  },
-  canto: {
+  }, */
+  /*  canto: {
     name: 'Canto',
     chainId: 7700,
     rpc: ['https://mainnode.plexnode.org:8545'],
@@ -583,7 +583,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['USDC', 'NOTE', 'USDT', 'BUSD'],
-  },
+  }, */
   zksync: {
     name: 'zkSync',
     chainId: 324,
@@ -662,7 +662,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
     },
     stableCoins: ['USDbC', 'DAI', 'bsUSD', 'axlUSDC', 'axlUSDT', 'MIM', 'USD+', 'DAI+'],
   },
-  aurora: {
+  /*  aurora: {
     name: 'Aurora',
     chainId: 1313161554,
     eol: 1691085875,
@@ -686,8 +686,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['USDC', 'USDT', 'MAI', 'DAI', 'UST', 'aUSDO', 'USN'],
-  },
-  emerald: {
+  }, */
+  /*  emerald: {
     name: 'Emerald',
     chainId: 42262,
     eol: 1691085875,
@@ -711,7 +711,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['ceUSDC', 'USDT'],
-  },
+  }, */
   celo: {
     name: 'Celo',
     chainId: 42220,
@@ -737,7 +737,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
     },
     stableCoins: ['cUSD', 'cEUR', 'DAI', 'USDC', 'USDT'],
   },
-  heco: {
+  /*  heco: {
     name: 'HECO',
     eol: 1681913494,
     chainId: 128,
@@ -764,8 +764,8 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       baseSafetyMargin: 0.1,
     },
     stableCoins: ['USDT', 'HUSD'],
-  },
-  harmony: {
+  }, */
+  /*  harmony: {
     name: 'Harmony',
     eol: 1681913494,
     chainId: 1666600000,
@@ -789,7 +789,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['BUSD', 'bscBUSD', 'USDC', 'USDT', 'UST', 'DAI', 'FRAX'],
-  },
+  }, */
 };
 
 export const chains: string[] = Object.keys(config);

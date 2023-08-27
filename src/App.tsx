@@ -17,7 +17,7 @@ import { Layout } from './components/Layout';
 
 const Home = lazy(() => import(`./features/home`));
 const Vault = lazy(() => import(`./features/vault`));
-const OnRamp = lazy(() => import(`./features/on-ramp`));
+// const OnRamp = lazy(() => import(`./features/on-ramp`));
 // const Bridge = lazy(() => import(`./features/bridge`));
 const Dashboard = lazy(() => import(`./features/dashboard`));
 const Treasury = lazy(() => import(`./features/treasury`));
@@ -46,9 +46,9 @@ export const App = () => {
                   <Route strict sensitive exact path={['/:network/vault/:id', '/vault/:id']}>
                     <Vault />
                   </Route>
-                  <Route exact path="/onramp">
+                  {/* <Route exact path="/onramp">
                     <OnRamp />
-                  </Route>
+                  </Route> */}
                   {/* <Route exact path="/bridge">
                     <Bridge />
                   </Route> */}
