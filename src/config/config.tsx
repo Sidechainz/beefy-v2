@@ -584,7 +584,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
     },
     stableCoins: ['USDC', 'NOTE', 'USDT', 'BUSD'],
   }, */
-  zksync: {
+  /* zksync: {
     name: 'zkSync',
     chainId: 324,
     rpc: ['https://mainnet.era.zksync.io'],
@@ -608,7 +608,7 @@ export const config: Record<ChainConfig['id'], Omit<ChainConfig, 'id'>> = {
       type: 'standard',
     },
     stableCoins: ['USDC', 'BUSD', 'wTBT'],
-  },
+  }, */
   zkevm: {
     name: 'Polygon zkEVM',
     chainId: 1101,
